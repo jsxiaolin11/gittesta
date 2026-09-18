@@ -31,4 +31,4 @@ print(my_dog.kinds)       #实例调用类属性
 print(Dog.kinds)          #直接调用类属性
 print(my_dog.info())        #实例调用静态方法
 print(Dog.info())           #直接调用静态方法
-my_dog.Sell_Price(1000)
+#my_dog.Sell_Price(1000)
