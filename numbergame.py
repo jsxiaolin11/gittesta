@@ -85,6 +85,7 @@ class GuessNumberGame:
             #height=2,
             bg="#90EE90"
         ).grid(row=0, column=1, padx=10,pady=5)
+        self.input_entry.focus_set() 
 
     def check_guess(self):
         # 输入合法性校验
